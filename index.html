@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=h, initial-scale=1.0" />
+    <title>Happy Halloween</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <h1>
+      <div class="container">
+        <div clas="row">
+          <div class="col d-flex justify-content-center">
+            <div class="card text-bg-dark">
+              <img src="images/head3.jpg" class="card-img" alt="..." />
+              <div class="card-img-overlay">
+                <h5 class="card-title">BOO!</h5>
+                <form id="search-form">
+                  <input
+                    type="text"
+                    placeholder="Search for a city"
+                    autocomplete="off"
+                    autofocus="on"
+                    id="search-city-input"
+                  />
+                  <input class="search-button" type="submit" value="Search" />
+                </form>
+                <h2 class="card-text-city">Sydney NSW, Australia</h2>
+                <h3>Sunday 13:34</h3>
+                <p class="card-text">
+                  <small> Partly Cloudy</small>
+                </p>
+
+                <h1 class="fullTemp">
+                  <span class="temperature" id="temp">23</span>
+                </h1>
+                <img class="cloudy" src="images/cloudy.png" />
+
+                <p class="humidity">
+                  Precipitation: 0%
+                  <br />
+                  Humidity: 77%
+                  <br />
+                  Wind: 8 km/h
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </h1>
+    <script src="src/index.js"></script>
+  </body>
+</html>
