@@ -1,0 +1,46 @@
+.card-img {
+  width: 700px;
+  display: block;
+  margin: 0% auto;
+}
+.container {
+  text-align: center;
+}
+.humidity {
+  font-size: 22px;
+  text-align: right;
+  margin-top: 30px;
+}
+.temperature {
+  font-size: 50px;
+}
+
+.cloudy {
+  width: 250px;
+  margin-left: -450px;
+  margin-top: -280px;
+  transition: all 400ms;
+}
+
+.cloudy:hover {
+  transform: rotate(360deg);
+}
+h2 {
+  margin-top: 20px;
+  font-size: 60px;
+}
+h3 {
+  font-size: 45px;
+}
+.fullTemp {
+  font-size: 32px;
+}
+
+.search-button {
+  background-color: #f68c04;
+  border-radius: 15px;
+  font-family: "Jolly Lodger", cursive;
+}
+h1 {
+  font-family: "Jolly Lodger", cursive;
+}
